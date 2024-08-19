@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  min-height: 100vh;
+  background-image: conic-gradient(
+    from 90deg at 25% -10%,
+    #ff4500,
+    #d3f340,
+    #7bee85,
+    #afeeee
+  );
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box {
+  background-color: rgba(0, 0, 0, 0.239);
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+span {
+  font-size: 6rem;
+  color: #fff;
+}
